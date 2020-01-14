@@ -18,7 +18,8 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "no-unused-expressions": 1
   },
   "browserslist": {
     "production": [
